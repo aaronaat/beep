@@ -17,7 +17,7 @@ $(document).ready(function(){
         numbers[i] = " Boop!"
       }
       else {
-        number = numbers[1]
+        numbers[i] = " " + number
       }
     });
 
