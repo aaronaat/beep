@@ -26,10 +26,11 @@ $(document).ready(function() {
 
   $("form#beep").submit(function(event) {
     event.preventDefault();
+    
     numbers = [];
     name = $("#name").val();
     num = $("#num").val();
-    
+
     beep(num);
     $("p").text(numbers);
 
